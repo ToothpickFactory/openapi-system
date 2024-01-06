@@ -1,0 +1,16 @@
+{
+  "name": "todo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-types": "openapi-typescript openapi/specs/**/*.yaml --output openapi/types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "openapi-typescript": "^6.7.3"
+  }
+}
